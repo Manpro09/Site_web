@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+  }
+
+
+.Discusion {
+  width: 500px;
+  margin: 50px auto;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 10px #AAAAAA;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px #AAAAAA;
+}
+
+button[type="submit"],
+#refresh-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #5F9EA0;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px #AAAAAA;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover,
+#refresh-button:hover {
+  background-color: #4682B4;
+}
+
+#msg-container {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px #AAAAAA;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.message p {
+  margin: 0;
+  padding: 5px;
+  background-color: #F7F7F7;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #AAAAAA;
+}
+
+.message p strong {
+  font-weight: bold;
+}
+
+/* styles pour la page d'accueil */
+
+/* styles pour le header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f00;
+}
+
+/* styles pour le formulaire de chat */
+.Discusion {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #333;
+    box-shadow: 0 0 10px #333;
+    background-color: #fff;
+}
+
+form h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+form button[type="submit"], #refresh-button {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+form button[type="submit"]:hover, #refresh-button:hover {
+    background-color: #fff;
+    color: #f00;
+}
+
+#msg-container {
+    max-height: 300px;
+    overflow-y: scroll;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #333;
+    box-shadow: 0 0 5px #333;
+}
+
+#msg-container p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#msg-container p strong {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#msg-container p em {
+    font-style: italic;
+    margin-right: 10px;
+}
+
+
+.footer {
+    background-color: #333333;
+    background-size: cover;
+    background-position: center;
+    height: 400px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline; /* Modification de la propriété align-items */
+    padding: 0 20px; /* Ajout de padding pour améliorer l'apparence */
+    color:  whitesmoke;
+}
+
+.footer  .liste {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.footer h2 {
+    margin: 0; /* Supprimer la marge supérieure du titre h2 */
+    padding-top: 50px;
+    color: white;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+.footer ul{
+    list-style: none;
+    
+}
+
+.liste1 .lien-icone {
+    display: inline-block;
+    margin-right: 30px; /* Ajouter une marge de 10px entre les deux logos */
+    padding-top: 40px;
+}
+
+
+  .liste1 img{
+    width: 30px;
+    height: 30px;
+  }
+ 

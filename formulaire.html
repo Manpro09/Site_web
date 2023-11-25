@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Formulaire</title>
+        <link href="styl.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" media="all" href="css/base.css" />
+
+
+    </head>
+
+    <body>
+
+       
+
+        
+        <main>
+
+            <section>
+
+                
+                <div class="Formulaire">
+
+                    <h1>S'identifier</h1>
+
+
+                    <form id="register-form" method="POST" action="htbin/register.py">
+
+                        <label for="lastname">Nom :</label>
+                        <input type="text" id="lastname" name="lastname" required>
+
+                        <label for="firstname">Prénom :</label>
+                        <input type="text" id="firstname" name="firstname" required>
+
+                        <label for="birthdate">Date de naissance (jj/mm/aaaa) :</label>
+                        <input type="text" id="birthdate" name="birthdate">
+
+                        <label for="username">Nom d'utilisateur (6 caractères minimum) :</label>
+                        <input type="text" id="username" name="username" minlength="6" required>
+
+                        <label for="userpwd">Mot de passe (8 caractères minimum avec une majuscule, une minuscule et un chiffre) :</label>
+                        <input type="password" id="userpwd" name="userpwd" minlength="8" required>
+
+                        <label for="useremail">Adresse email :</label>
+                        <input type="text" id="useremail" name="useremail" required>
+
+                        <input type="submit" value="S'inscrire">
+                    </form>
+
+                    
+
+                    <noscript>
+                    <div class="error">JavaScript est désactivé sur votre navigateur. Veuillez l'activer pour utiliser ce formulaire.</div>
+                    </noscript>
+
+                    <script src="script.js" charset="utf-8"></script>
+
+                </div>
+
+            </section>
+        
+    </main>
+
+
+    
+    <footer>
+
+        <div class="footer">
+
+            <div class="liste">
+                <h2>Nos découvertes </h2>
+
+                <ul>
+                    
+                    <li><a href="economie.html">Economie</a> </li>
+                    <li><a href="culture_art.html">Culture ,Art et Patrimoine </a> </li>
+                    <li><a href="Nature_Biodiversité.html">Nature et Biodiversité</a> </li>
+                    <li><a href="Tourisme.html">Tourisme</a></li>
+
+
+                </ul>
+            </div>
+
+            <div class="liste" >
+                <h2>Les Evènements</h2>
+
+                <ul>
+                    
+                    <li> Rallye</li>
+                    <li> Femua</li>
+                    <li> Paquinou </li>
+                    <li> Abissa </li>
+        
+
+                    <li>Fesda </li>
+                    <li> Recitel</li>
+                    <li> Festhef </li>
+                    <li> Filbleu </li>
+                </ul>
+            
+            </div>
+
+            <div class="liste1" >
+                <h2> Nous suivre </h2>
+            
+                <a target="_blank" href="https://twitter.com/republicoftogo" class="lien-icone"  >
+                    <img src="images/twitter_logo.png" alt="Logo Twitter" >
+                </a>    
+
+                <a target="_blank" href="https://www.instagram.com/" class="lien-icone" >
+                    <img src="images/insta_logo.jpg" alt="Logo Instagram" >
+                </a>
+
+                <a target="_blank" href="https://www.facebook.com/tourismecotedivoire.ci/" class="lien-icone" >
+                    <img src="images/logo_facebook.jpg" alt="Logo Instagram" >
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+    </footer>
+
+    </body>
+
+</html>
+
+
+
